@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevFusion — Alex Morgan | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M6 6h10a10 10 0 0 1 0 20H6V20h10a4 4 0 0 0 0-8H6V6Z" fill="currentColor"/><path d="M2 10h8v3H2zM2 19h8v3H2z" fill="currentColor"/></svg>
+        </span>
+        <span class="logo-text">DEV<strong>FUSION</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-outline btn-sm nav-cta">Let's Talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="line"></span>Hello, I'm</p>
+        <h1 class="hero-title">HEIN <span class="accent">THIHA</span></h1>
+        <h2 class="hero-role"><span id="typed">Cloud Architect</span><span class="cursor">|</span></h2>
+        <p class="hero-desc">I build exceptional digital experiences with modern technologies. Passionate about clean code, scalable solutions, and turning ideas into reality.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hire Me <svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="#projects" class="btn btn-outline">View My Work <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></a>
+        </div>
+        <p class="availability"><span class="dot"></span>Available for Freelance</p>
+        <div class="socials">
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1Zm1.8 13H3.6V9h3.5v11.4Z"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 5.9c-.7.3-1.5.5-2.4.6a4 4 0 0 0 1.8-2.2c-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.7a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5 0 2 1.4 3.7 3.3 4a4 4 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.8A8.2 8.2 0 0 1 2 18.3 11.6 11.6 0 0 0 8.3 20c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2Z"/></svg></a>
+          <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+        <div class="portrait-wrap">
+          <img src="Profile.png" alt="Hein Thiha" class="portrait" /> 
+        </div>
+        <div class="float-tag tag-react"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="" />React.js</div>
+        <div class="float-tag tag-node"><img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="" />Node.js</div>
+        <div class="float-tag tag-ts"><img src="https://cdn.simpleicons.org/typescript/3178C6" alt="" />TypeScript</div>
+        <div class="float-tag tag-mongo"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt="" />MongoDB</div>
+        <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span><span class="spark s4"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-content reveal">
+        <p class="eyebrow">About Me<span class="line"></span></p>
+        <h2 class="section-title">Building Digital Solutions<br />That Make a Difference</h2>
+        <p class="muted">I'm a passionate Full-Stack Developer with 6+ years of experience creating web applications that are fast, scalable, and user-friendly. I specialize in JavaScript technologies across the MERN stack and love solving complex problems with elegant solutions.</p>
+        <div class="stats">
+          <div class="stat"><strong data-count="6" data-suffix="+">0+</strong><span>Years Experience</span></div>
+          <div class="stat"><strong data-count="40" data-suffix="+">0+</strong><span>Projects Completed</span></div>
+          <div class="stat"><strong data-count="25" data-suffix="+">0+</strong><span>Happy Clients</span></div>
+          <div class="stat"><strong data-count="100" data-suffix="%">0%</strong><span>Client Satisfaction</span></div>
+        </div>
+        <a href="#" class="btn btn-outline">Download Resume <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></a>
+      </div>
+      <div class="about-side reveal">
+        <div class="info-card">
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>Name:</span><b>Hein Thiha</b></div>
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span>Email:</span><b>heinthiha@email.com</b></div>
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7 7-12a7 7 0 1 0-14 0c0 5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Location:</span><b>Ahlone , Yangon</b></div>
+          <div class="info-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Availability:</span><b>Available for Freelance and Full Time Jobs</b></div>
+        </div>
+        <div class="signature">Hein Thiha</div>
+        <div class="world-map" aria-hidden="true"><span class="map-pin"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow">What I Do</p>
+        <h2 class="section-title">My Services</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="8" width="40" height="32" rx="3"/><path d="M4 16h40M10 12h2M15 12h2M20 12h2"/><path d="m20 23-5 5 5 5M28 23l5 5-5 5"/></svg></div>
+          <h3>Web Development</h3>
+          <p>Custom web applications built with modern technologies and best practices.</p>
+          <a href="#contact" class="link-more">Learn More <span>→</span></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="8" width="40" height="26" rx="3"/><path d="M18 42h12M24 34v8M10 28h28M10 14h12"/></svg></div>
+          <h3>Frontend Development</h3>
+          <p>Responsive and interactive user interfaces with React, Next.js, and Tailwind CSS.</p>
+          <a href="#contact" class="link-more">Learn More <span>→</span></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="6" width="36" height="10" rx="2"/><rect x="6" y="19" width="36" height="10" rx="2"/><rect x="6" y="32" width="36" height="10" rx="2"/><path d="M12 11h2M12 24h2M12 37h2M32 11h6M32 24h6M32 37h6"/></svg></div>
+          <h3>Backend Development</h3>
+          <p>RESTful APIs and server-side applications with Node.js, Express, and databases.</p>
+          <a href="#contact" class="link-more">Learn More <span>→</span></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="24" cy="11" rx="16" ry="6"/><path d="M8 11v26c0 3.3 7.2 6 16 6s16-2.7 16-6V11"/><path d="M8 20c0 3.3 7.2 6 16 6s16-2.7 16-6M8 29c0 3.3 7.2 6 16 6s16-2.7 16-6"/></svg></div>
+          <h3>Database Design</h3>
+          <p>Database architecture and optimization for high-performance applications.</p>
+          <a href="#contact" class="link-more">Learn More <span>→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section skills" id="skills">
+    <div class="container skills-grid">
+      <div class="skills-bars reveal">
+        <p class="eyebrow">My Expertise</p>
+        <h2 class="section-title">Skills &amp Technologies</h2>
+        <div class="bar"><div class="bar-head"><span>JavaScript / TypeScript</span><span>95%</span></div><div class="bar-track"><div class="bar-fill" data-width="95"></div></div></div>
+        <div class="bar"><div class="bar-head"><span>React / Next.js</span><span>92%</span></div><div class="bar-track"><div class="bar-fill" data-width="92"></div></div></div>
+        <div class="bar"><div class="bar-head"><span>Node.js / Express</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-width="90"></div></div></div>
+        <div class="bar"><div class="bar-head"><span>MongoDB / SQL</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" data-width="85"></div></div></div>
+        <div class="bar"><div class="bar-head"><span>HTML / CSS / Tailwind</span><span>95%</span></div><div class="bar-track"><div class="bar-fill" data-width="95"></div></div></div>
+        <div class="bar"><div class="bar-head"><span>AWS / Cloud Services</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" data-width="80"></div></div></div>
+      </div>
+      <div class="tech-grid reveal">
+        <div class="tech"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="" /><span>React</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" alt="" /><span>Next.js</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="" /><span>Node.js</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/typescript/3178C6" alt="" /><span>TypeScript</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" /><span>JavaScript</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="" /><span>Tailwind CSS</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt="" /><span>MongoDB</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="" /><span>PostgreSQL</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/git/F05032" alt="" /><span>Git</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="" /><span>Docker</span></div>
+        <div class="tech"><svg class="aws-ico" viewBox="0 0 64 30"><text x="32" y="17" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="17" fill="#fff">aws</text><path d="M12 24c8 5 32 5 40-1" stroke="#FF9900" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M50 20l3 3-4 1" stroke="#FF9900" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AWS</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/firebase/DD2C00" alt="" /><span>Firebase</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/graphql/E10098" alt="" /><span>GraphQL</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/redux/764ABC" alt="" /><span>Redux</span></div>
+        <div class="tech"><img src="https://cdn.simpleicons.org/jest/C21325" alt="" /><span>Jest</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head split reveal">
+        <div>
+          <p class="eyebrow">Featured Projects</p>
+          <h2 class="section-title">Some of My Recent Work</h2>
+        </div>
+        <a href="#" class="btn btn-outline btn-sm">View All Projects <span>→</span></a>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-thumb thumb-dark">
+            <div class="mock-nav"><i></i><i></i><i></i></div>
+            <div class="mock-body">
+              <div class="mock-side"><i></i><i></i><i></i><i></i></div>
+              <div class="mock-main">
+                <div class="mock-row"><div class="mock-ring"></div><div class="mock-kpi"></div><div class="mock-kpi"></div></div>
+                <svg class="mock-chart" viewBox="0 0 200 60" preserveAspectRatio="none"><path d="M0 50 C20 45 30 20 50 25 S80 55 100 40 S130 10 150 20 S180 45 200 30 V60 H0Z" fill="url(#g1)"/><defs><linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6366f1" stop-opacity=".9"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></linearGradient></defs></svg>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Analytics Dashboard</h3>
+            <div class="project-foot">
+              <div class="tags"><span>React</span><span>TypeScript</span><span>Recharts</span><span>Tailwind CSS</span></div>
+              <a href="#" class="ext" aria-label="Open project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb thumb-light">
+            <div class="mock-nav light"><i></i><i></i><i></i></div>
+            <div class="mock-shop">
+              <div class="mock-item"></div><div class="mock-item"></div><div class="mock-item"></div><div class="mock-item"></div><div class="mock-item"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Platform</h3>
+            <div class="project-foot">
+              <div class="tags"><span>Next.js</span><span>Node.js</span><span>MongoDB</span><span>Stripe</span></div>
+              <a href="#" class="ext" aria-label="Open project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb thumb-dark">
+            <div class="mock-nav"><i></i><i></i><i></i><b class="mock-btn"></b></div>
+            <div class="mock-kanban">
+              <div class="mock-col"><i></i><i></i><i></i></div>
+              <div class="mock-col"><i></i><i></i></div>
+              <div class="mock-col"><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Task Management App</h3>
+            <div class="project-foot">
+              <div class="tags"><span>React</span><span>Firebase</span><span>Tailwind CSS</span><span>Redux</span></div>
+              <a href="#" class="ext" aria-label="Open project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Testimonials</p>
+        <h2 class="section-title">What Clients Say</h2>
+      </div>
+      <div class="testimonials-grid" id="testimonialTrack">
+        <article class="testimonial-card reveal">
+          <p>"Alex delivered an exceptional web application that exceeded our expectations. His attention to detail and technical expertise are outstanding."</p>
+          <div class="t-foot">
+            <div class="avatar" style="--a:#e08a4a">SJ</div>
+            <div><b>Sarah Johnson</b><span>CEO, TechStart Inc.</span></div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </article>
+        <article class="testimonial-card reveal">
+          <p>"Working with Alex was a fantastic experience. He's professional, communicates well, and delivers high-quality code on time."</p>
+          <div class="t-foot">
+            <div class="avatar" style="--a:#5b8def">MC</div>
+            <div><b>Michael Chen</b><span>CTO, InnovateLab</span></div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </article>
+        <article class="testimonial-card reveal">
+          <p>"Alex transformed our idea into a powerful application. His problem-solving skills and clean code approach are impressive."</p>
+          <div class="t-foot">
+            <div class="avatar" style="--a:#b86ad9">ER</div>
+            <div><b>Emily Rodriguez</b><span>Product Manager, GrowthCo</span></div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </article>
+      </div>
+      <div class="dots" id="dots"><button class="active" aria-label="Slide 1"></button><button aria-label="Slide 2"></button><button aria-label="Slide 3"></button></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-intro reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's Build Something<br />Amazing Together</h2>
+        <p class="muted">Have a project in mind? Let's discuss how we can bring your ideas to life. I'm always excited to work on new challenges and innovative projects.</p>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <div class="select-wrap"><select required><option value="" disabled selected>Project Type</option><option>Web Application</option><option>Frontend Development</option><option>Backend / API</option><option>Full-Stack Project</option></select></div>
+        <div class="select-wrap"><select required><option value="" disabled selected>Budget Range</option><option>$1k – $5k</option><option>$5k – $10k</option><option>$10k – $25k</option><option>$25k+</option></select></div>
+        <textarea rows="4" placeholder="Tell me about your project..." required class="full"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message <svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+      <aside class="contact-card reveal">
+        <div class="c-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><div><span>Email</span><b>alex.morgan@email.com</b></div></div>
+        <div class="c-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg><div><span>Phone</span><b>+1 (555) 123-4567</b></div></div>
+        <div class="c-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7 7-12a7 7 0 1 0-14 0c0 5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg><div><span>Location</span><b>San Francisco, CA</b></div></div>
+        <div class="c-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><span>Response Time</span><b>Within 24 hours</b></div></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 6h10a10 10 0 0 1 0 20H6V20h10a4 4 0 0 0 0-8H6V6Z" fill="currentColor"/><path d="M2 10h8v3H2zM2 19h8v3H2z" fill="currentColor"/></svg></span>
+          <span class="logo-text">DEV<strong>FUSION</strong></span>
+        </a>
+        <p class="muted small">Building digital solutions that drive results and create exceptional user experiences.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <div class="two-col">
+          <a href="#about">About</a><a href="#skills">Skills</a>
+          <a href="#services">Services</a><a href="#testimonials">Testimonials</a>
+          <a href="#projects">Projects</a><a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">Web Development</a>
+        <a href="#services">Frontend Development</a>
+        <a href="#services">Backend Development</a>
+        <a href="#services">Database Design</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Me</h4>
+        <div class="socials">
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1Zm1.8 13H3.6V9h3.5v11.4Z"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 5.9c-.7.3-1.5.5-2.4.6a4 4 0 0 0 1.8-2.2c-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.7a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5 0 2 1.4 3.7 3.3 4a4 4 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.8A8.2 8.2 0 0 1 2 18.3 11.6 11.6 0 0 0 8.3 20c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2Z"/></svg></a>
+          <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2024 Alex Morgan. All rights reserved.</span>
+      <span>Built with passion ❤️ and lots of coffee ☕</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
